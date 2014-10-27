@@ -106,7 +106,7 @@ include('functions.php');
 					}
                     elseif($myrow[member_status] != "4" or $myrow[member_status] != "5")
                     {
-                        //vilistlanelahkunudmassiiv
+                        //vilistlanelahkunudmassiiv.ok
                     }
 				}
                 setcookie("Vilistlasedlahkunud", serialize($vilistlane), time()+3600);
